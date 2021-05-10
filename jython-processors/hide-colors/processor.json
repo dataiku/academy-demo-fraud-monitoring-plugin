@@ -17,7 +17,7 @@
      * - ROW : the code outputs a row
      * - ROWS : the code outputs an array of rows
      */
-    "mode": "CELL",
+    "mode": "ROW",
 
     /* params:
     DSS will generate a formular from this list of requested parameters.
@@ -36,6 +36,12 @@
             "description": "Column containing the text to be processed.",
             "columnRole": "main",
             "mandatory": true
+        },
+        {
+            "name": "output_column",
+            "label": "Output column",
+            "type": "COLUMN",
+            "description": "Column containing the processed text."
         }
     ],
     
