@@ -41,7 +41,8 @@
             "name": "output_column",
             "label": "Output column",
             "type": "COLUMN",
-            "description": "Column containing the processed text."
+            "description": "Column containing the processed text.",
+            "columnRole": "output_text"
         }
     ],
     
